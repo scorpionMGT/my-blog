@@ -20,19 +20,23 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "valineConfig": {
+      appId: 'zTa2HLtPyhAN5dxA9qoo5EGj-gzGzoHsz',// your appId
+      appKey: 'RUOo35em7GxMQEicvYPCDf48', // your appKey
+    },
     "nav": [
       {
-        "text": "Home",
+        "text": "首页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间线",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Contact",
+        "text": "github",
         "icon": "reco-message",
         "items": [
           {
@@ -47,11 +51,11 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "分类"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
     "friendLink": [
