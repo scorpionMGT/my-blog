@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "my-bloh",
-  "description": "",
+  "title": "maoguotao",
+  "description": "笔记",
   "dest": "public",
   "head": [
     [
@@ -37,7 +37,7 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/guotaomao",
             "icon": "reco-github"
           }
         ]
@@ -56,14 +56,14 @@ module.exports = {
     },
     "friendLink": [
       {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
+        "title": "maoguotao",
+        "desc": "笔记",
+        "email": "1142656486@qq.com",
+        "link": "https://github.com/guotaomao"
       },
       {
         "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+        "desc": "搭建博客的模板",
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
@@ -74,9 +74,9 @@ module.exports = {
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "maoguotao",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/logo.png",
     "record": "xxxx",
-    "startYear": "2017"
+    "startYear": "2018"
   },
   "markdown": {
     "lineNumbers": true
