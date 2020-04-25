@@ -4,7 +4,8 @@
   "author": "maoguotao",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs && sh ./remove.sh",
+    "deploy": "sh ./deploy.sh"
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-comments": "^1.4.3",

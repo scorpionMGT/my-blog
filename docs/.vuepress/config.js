@@ -73,6 +73,7 @@ module.exports = {
       }
     ],
     "logo": "/logo.png",
+    "base": `/site`,
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
