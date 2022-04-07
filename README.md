@@ -10,6 +10,5 @@ npm run build
 npm run dev
 
 # 部署
-
 npm run deploy "部署描述"
 ```
