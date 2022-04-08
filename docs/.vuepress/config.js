@@ -63,7 +63,7 @@ module.exports = {
         "title": "maoguotao",
         "desc": "笔记",
         "email": "1142656486@qq.com",
-        "link": "https://github.com/guotaomao"
+        "link": "https://github.com/scorpionMGT"
       },
       {
         "title": "vuepress-theme-reco",
