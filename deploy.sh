@@ -8,6 +8,7 @@ echo $1
 if test -n $1
 then
     cd ../scorpionMGT.github.io
+    git pull
     git add .
     git commit -m "$1"
     echo $1
