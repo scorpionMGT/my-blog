@@ -16,7 +16,8 @@ module.exports = {
         "name": "viewport",
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
-    ]
+    ],
+    ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" }]
   ],
   "theme": "reco",
   "themeConfig": {
