@@ -346,3 +346,7 @@ let a = {
 let b = Object.create(a); // 实际上是 b.__proto__ === a
 // 等于a的原型赋值给b的隐式原型
 ```
+
+总结
+
+![总结](https://s1.ax1x.com/2022/04/26/L7t1Wd.png)
