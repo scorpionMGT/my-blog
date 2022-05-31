@@ -62,4 +62,13 @@ interface IProps {
 }
 
 
+// type 
+
+type Point = {
+  a: number
+  b: number
+} 
+
+type Fn = (a: number, b: number) => void
+
 ```

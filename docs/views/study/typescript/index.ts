@@ -14,21 +14,33 @@
 // implements
 
 // 函数声明
-const fn = (a: number, b: number): void => {
-    let result = a + b
-    console.log('a+b', result)
-}
+// const fn = (a: number, b: number): void => {
+//     let result = a + b
+//     console.log('a+b', result)
+// }
 
-const fun: (a: number, b: number) => number = (a: number, b: number): number => {
-    let result = a + b
-    return result
-}
+// const fun: (a: number, b: number) => number = (a: number, b: number): number => {
+//     let result = a + b
+//     return result
+// }
 
 // 接口定义函数
 
-interface IProps {
-    fn: (a: number, b: number) => void
+// interface IProps {
+//     fn: (a: number, b: number) => void
+// }
+
+// type 
+
+// type Point = {
+//     a: number
+//     b: number
+//   } 
+  
+type Fn = (a: number, b: number) => void
+
+
+const func: Fn = (a: number, b: number): number => {
+    return a + b
 }
-
-
 
