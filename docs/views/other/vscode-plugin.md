@@ -7,7 +7,7 @@ categories:
  - vscode 
 ---
 
-# vscode plugin vscode 插件开发，打包构建流程
+## vscode plugin vscode 插件开发，打包构建流程
 
 详细文档参考 <https://code.visualstudio.com/api>,
 vscode 插件市场 <https://marketplace.visualstudio.com/vscode>
